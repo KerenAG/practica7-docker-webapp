@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Aplicación Web con Docker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #5ebf8f, #175a4c);
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        .card {
+            background: white;
+            color: #175a4c;
+            padding: 30px;
+            border-radius: 15px;
+            width: 420px;
+            margin: auto;
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .visitas {
+            font-size: 18px;
+            margin: 15px 0;
+        }
+
+        .ok {
+            color: green;
+            font-weight: bold;
+        }
+
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Aplicación Web con Docker</h1>
+    <h2>Bienvenido, Profesor Elvys Cruz</h2>
+
+    <p class="visitas">
+        Número de visitas registradas: <b>{{ total }}</b>
+    </p>
+
+    <p class="{{ estado_class }}">
+        {{ estado }}
+    </p>
+
+    <footer>
+        Proyecto académico - Docker y MySQL
+    </footer>
+</div>
+
+</body>
+</html>
