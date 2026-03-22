@@ -1,5 +1,11 @@
 # Practica 7 - Aplicación Web con Docker y MySQL
 
+## Vista de la aplicación en Docker
+
+<p align="center">
+  <img src="images/docker-running.png" width="800">
+</p>
+
 ## Descripción
 
 Este proyecto consiste en el desarrollo de una aplicación web utilizando Python (Flask) que se conecta a una base de datos MySQL. La aplicación se ejecuta mediante contenedores Docker utilizando Docker Compose, lo que permite una fácil configuración y despliegue del entorno.
